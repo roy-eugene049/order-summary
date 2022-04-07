@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    background-color: white;
+    max-width: 450px;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img[src*="images/illustration-hero.svg"] {
+    max-width: 455px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.headline {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-size: 22px;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    margin: 10px 50px 10px 50px;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px 10px 50px;
+    padding: 15px 50px 15px 50px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.payment-button {
+    align-items: center;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 50px 15px 50px;
+    margin: 30px 50px 10px 50px;
+    border-radius: 10px;  
+}
+
+.payment ul {
+    list-style-type: none;
+    margin-left: -60px;
+}
+
+.payment-button a {
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 40px 10px 40px;
+    color: white;
+}
+
+.cancel--order-button {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.cancel--order-button a {
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+img[src*="images/icon-music.svg"] {
+    margin-left: -20px;
+}
+
+@media (max-width: 455px) {
+    .container {
+        min-width: 455px;
+    }
+}
